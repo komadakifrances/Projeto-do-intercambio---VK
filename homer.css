@@ -1,0 +1,91 @@
+
+#introduzzione {
+    color: #FFF;
+    font-size: 75px;
+}
+
+#P02doprojeto
+{
+    color: rgb(74, 234, 82);
+    font-size: 30px;
+    background-color: rgb(3, 29, 3);
+    justify-content: center;
+}
+
+#P03doprojeto
+{
+    color: rgb(74, 234, 82);
+    font-size: 30px;
+    background-color: rgb(3, 29, 3);
+    justify-content: center;
+}
+
+.divpadrao {
+    display: flex;
+    flex-direction: column;
+}
+
+#descarte{
+display: none;
+overflow: auto;
+}
+
+#garrafa {
+    height: 300px;
+    width: auto;
+}
+/* sobre a configuração de aspectos da página */
+body {
+    background-color: rgb(7, 57, 7);
+}
+
+
+/*menu brabo */
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(11, 111, 11);
+    background: rgb(3, 29, 3);
+    text-decoration: none;
+    color:rgb(74, 234, 82);
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: rgb(74, 234, 82);
+    color: rgb(3, 29, 3);
+    border-color: #000;
+}
+
+
+
+
+.divpadrao {
+    display: flex;
+}
+
+.conteudo-texto {
+    flex: 1; /* Ocupa todo o espaço disponível à esquerda */
+    margin-right: 20px; /* Define uma margem à direita para dar recuo ao texto em relação às imagens */
+}
+
+.conteudo-imagem {
+    width: 300px; /* Define uma largura fixa para as imagens */
+}
+
+#incentivo {
+    display: none;
+}

@@ -1,0 +1,149 @@
+/* sobre a configuração de aspectos da página */
+body {
+    background-color: rgb(7, 57, 7);
+}
+
+
+/* Sobre a configuração de imagens */
+.imagem {
+    float: right;
+    margin-left: 5px; 
+    width: 300px; 
+    height: auto;
+    margin-bottom: 3px;
+}
+
+#foto0 {
+    width: 400px;
+}
+
+#foto2 {
+    padding: 0%;
+    clear: both;
+}
+
+
+/* Sobre a configuração dos textos */
+
+#titulopag2 {
+    color:#FFF;
+}
+.texto{
+    color: rgb(74, 234, 82);
+    font-size: 25px;
+}
+#titulo {
+    font-size: 170%;
+    color: rgb(7, 57, 7);
+}
+
+#agradecimento {
+    font-size: 170%;
+    color: rgb(7, 57, 7);
+}
+
+.paragrafo1 {
+    display: inline;
+    color: rgb(74, 234, 82);
+}
+
+.saudacoes {
+    display: inline-block;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(74, 234, 82); 
+}
+
+#p1{
+    font-size: 150%;
+}
+
+#titulocontexto {
+    font-size: 200%;
+    background-color: rgb(3, 29, 3);
+}
+
+#contextodiv {
+    background-color: rgb(3, 29, 3);
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    display: none;
+    overflow: auto;
+}
+
+.textodiv1 {
+    font-size: 120%;
+    color: rgb(74, 234, 82);
+}
+
+.divpadrao {
+    font-size: 120%;
+    color: rgb(74, 234, 82);
+    background-color: rgb(3, 29, 3);
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    /*display: none; */
+    overflow: auto;
+}
+
+.divprofundoverde {
+    background-color:  rgb(3, 29, 3);
+}
+
+
+/*menu brabo */
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+/*botões brabos*/
+.botaotexto {
+    background-color: rgb(74, 234, 82);
+    color: rgb(3, 29, 3);
+    padding: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.botaotexto:hover{
+    color: rgb(74, 234, 82);
+    background-color: rgb(3, 29, 3);
+}
+
+/* a lista que eu copiei da net */
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+    list-style-position: center;
+    list-style-type: center;
+    list-style-position: inside;
+    text-align: center;
+    align-self: center;
+}
+
+
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid rgb(11, 111, 11);
+    background: rgb(3, 29, 3);
+    text-decoration: none;
+    color:rgb(74, 234, 82);
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: rgb(74, 234, 82);
+    color: rgb(3, 29, 3);
+    border-color: #000;
+}
