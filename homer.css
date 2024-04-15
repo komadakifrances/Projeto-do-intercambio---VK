@@ -70,11 +70,32 @@ li a:hover {
     border-color: #000;
 }
 
+#textofinal {
+    font-size: 30px;
+}
 
+#textofinal2 {
+    font-size: 20px;
+}
 
+#textofinal3 {
+    font-size: 20px;
+}
+
+#linkcanva {
+    color: white;
+    
+}
 
 .divpadrao {
     display: flex;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#videoDIV {
+    display: flex;
+     justify-content: center;
 }
 
 .conteudo-texto {
